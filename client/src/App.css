@@ -1,0 +1,264 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    font-family: Courier;
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    background-color: #191a1d;
+    color: #fff;
+}
+
+.main-title {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* List */
+
+.loading-screen {
+    width: 100%;
+}
+
+/* List Item */
+
+.pokemon-avatar {
+    width: 75px;
+    height: 75px;
+}
+
+.pokemons-list li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted;
+    padding: 5px 15px;
+    justify-content: space-between;
+}
+
+.avatar-container {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.pokemons-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pokemons-list li strong {
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+.pokemons-list li i {
+    padding-right: 5px;
+}
+
+.pokemons-list a:last-child li {
+    border-bottom: 0;
+}
+
+/* Fetch Button */
+
+.fetch-btn-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.fetch-btn-container button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Courier;
+}
+
+.fetch-btn-container button:focus {
+    outline: none;
+}
+
+/* Profile */
+
+.profile {
+    text-align: center;
+    height: 100%;
+}
+
+.profile i {
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+    color: #fff;
+    left: 0.5em;
+    top: 0.5em;
+    float: left;
+}
+
+.profile-pic {
+    padding: 20px 0;
+}
+
+.profile-pic img {
+    z-index: 1;
+    position: relative;
+    max-width: 300px;
+}
+
+.profile-links button {
+    background-color: #fff;
+    border: none !important;
+    color:#191a1d !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+}
+
+.poke-bio {
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    text-transform: capitalize;
+    padding: 20px 0;
+    position: relative;
+    top: -3em;
+}
+
+.poke-bio button {
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: 1px solid #000;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+/* Evolution Chart */
+
+.evolution-chart {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 20px 20px;
+}
+
+.evolution-chart h3 {
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.phase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.phase img {
+    max-width: 200px;
+}
+
+.phase i {
+    position: inherit;
+}
+
+.phase:last-child i {
+    display: none;
+}
+
+/* 404 */
+
+.confusion-404 {
+    text-align: center;
+}
+
+/* Type buttons */
+
+.type-bug {
+    background-color: #93a013;
+}
+
+.type-dark {
+    background-color: #413025;
+}
+
+.type-dragon {
+    background-color: #775fe0;
+}
+
+.type-electric {
+    background-color: #e79302;
+}
+
+.type-fairy {
+    background-color: #e79be7;
+}
+
+.type-fighting {
+    background-color: #7f341e;
+}
+
+.type-fire {
+    background-color: #cf2805;
+}
+
+.type-flying {
+    background-color: #5d73d3;
+}
+
+.type-ghost {
+    background-color: #444693;
+}
+
+.type-grass {
+    background-color: #6ebf31;
+}
+
+.type-ground {
+    background-color: #d2b055;
+}
+
+.type-ice {
+    background-color: #6dd4f4;
+}
+
+.type-normal {
+    background-color: #ada594;
+}
+
+.type-poison {
+    background-color: #934595;
+}
+
+.type-psychic {
+    background-color: #dd3065;
+}
+
+.type-rock {
+    background-color: #9e863c;
+}
+
+.type-steel {
+    background-color: 8e8e9f;
+}
+
+.type-water {
+    background-color: #3494f5;
+}
