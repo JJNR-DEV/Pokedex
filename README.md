@@ -7,6 +7,10 @@ Hackday project developed with the intention to be used as a mobile app. To get 
 
 In the project directory, you can run:
 
+### `npm install`
+
+Run this command on both the server folder and client folder. Once that is done operate the next command.
+
 ### `npm start`
 
 Run this command first in the server folder to handle the request, after run this command on the client folder. Once that is done you can navigate throught the Pokedex.
